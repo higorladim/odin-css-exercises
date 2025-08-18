@@ -8,8 +8,39 @@ img {
 }
 
 .title {
+  margin: 3rem;
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.items-container{
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .items-container{
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 52px;
+}
+
+.footer{
+  text-align: center;
+}
+}
+
+.item-container{
+  display: flex;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* do not edit this footer */
